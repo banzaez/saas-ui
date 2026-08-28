@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+
+  # Если запрашивается существующий файл — отдать его напрямую
+  RewriteCond %{REQUEST_FILENAME} !-f
+  # Если запрашивается существующая папка — отдать её
+  RewriteCond %{REQUEST_FILENAME} !-d
+
+  # Иначе — всегда отдаём index.html
+  RewriteRule ^.*$ /index.html [L]
+</IfModule>

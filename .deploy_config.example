@@ -1,0 +1,14 @@
+# Deployment Configuration Template
+# Copy this file to .deploy_config and fill in real values
+
+SERVER1_USER="root"
+SERVER1_HOST="your-production-server.com"
+SERVER1_PATH="/var/www/saas"
+SERVER1_API="https://api.your-saas.com"
+SERVER1_PASS="your_production_password"
+
+SERVER2_USER="deploy_user"
+SERVER2_HOST="your-staging-server.com"
+SERVER2_PATH="/var/www/saas_staging"
+SERVER2_API="https://staging-api.your-saas.com"
+SERVER2_PASS="your_staging_password"

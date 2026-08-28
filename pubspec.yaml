@@ -1,0 +1,91 @@
+name: saas_ui
+description: "A new Flutter project."
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.8.0+200
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+  flutter_web_plugins:
+    sdk: flutter
+
+  intl: ^0.20.3
+
+  dio: ^5.11.0
+  retrofit: ^4.10.0
+  json_annotation: ^4.12.0
+
+  flutter_riverpod: ^3.4.2
+  freezed_annotation: ^3.1.0
+  riverpod_annotation: ^4.0.6
+
+  go_router: ^17.5.0
+
+  flutter_svg: ^2.3.0
+
+  fl_chart: ^1.2.0
+
+  shared_preferences: ^2.5.5
+
+  file_saver: ^0.4.0
+
+  pdfrx: ^2.4.7
+
+  url_launcher: ^6.3.2
+
+  path_provider: ^2.1.6
+
+  cupertino_icons: ^1.0.9
+  google_fonts: ^8.2.1
+  desktop_drop: ^0.8.0
+
+  string_validator: 1.2.0
+
+  package_info_plus: ^10.2.1
+
+  http: ^1.6.0
+  web: ^1.1.1
+
+  vector_graphics: any
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: 2.16.0
+  json_serializable: ^6.14.1
+  freezed: ^4.0.0
+
+  retrofit_generator: ^10.2.9
+  riverpod_generator: ^4.0.8
+
+  flutter_lints: ^6.0.0
+
+  flutter_gen_runner: ^5.15.0
+
+flutter_gen:
+  output: lib/src/core/gen/
+
+  integrations:
+    image: true
+    flutter_svg: true
+    rive: true
+    lottie: true
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/app_icon/
+    - assets/sidebar/
+    - assets/sidebar/icons/
+    - assets/buy/
+    - assets/integrations/

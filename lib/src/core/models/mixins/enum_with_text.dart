@@ -1,0 +1,3 @@
+mixin EnumWithText {
+  String text();
+}
